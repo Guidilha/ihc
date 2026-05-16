@@ -75459,7 +75459,7 @@ if(J.cD(f)===0||J.cD(e)===0){m.uL("Preencha todos os campos.",!1)
 s=1
 break}m.ap(new A.a9C(m))
 p=4
-j=A.h0("https://xadrez-a8qm.onrender.com/"+a)
+j=A.h0("https://xadrez-a8qm.onrender.com/api/"+a)
 i=t.N
 h=A.ad(["Content-Type","application/json"],i,i)
 s=7
