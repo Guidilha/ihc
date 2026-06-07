@@ -86035,7 +86035,7 @@ k=A.lR(f,f,B.bA,f,f,f,f,f,f,B.k,f,f,f,f,f,f,f,f,f,f)
 k=A.lQ(A.c4(o+": "+m,f,f,f,f,f,f),new A.aiQ(a,g),k)
 j=A.lR(f,f,B.hu,f,f,f,f,f,f,B.k,f,f,f,f,f,f,f,f,f,f)
 i=t.p
-h=A.j0(f,A.hw(A.c([B.Wp,B.Wc,B.lj,A.jr(A.c([k,B.Qw,A.lQ(A.c4(n+": "+a.a,f,f,f,f,f,f),new A.aiR(a,g),j)],i),B.a2,B.c3,B.aI)],i),B.a2,B.ai,B.aI),B.z,f,f,new A.ea(a1,f,l,a2,f,f,B.bf),f,f,B.FK,B.FP,f,f,f)}else h=B.ak}else h=B.ak
+h=A.j0(f,A.hw(A.c([B.Wp,B.Wd,B.lj,A.jr(A.c([k,B.Qw,A.lQ(A.c4(n+": "+a.a,f,f,f,f,f,f),new A.aiR(a,g),j)],i),B.a2,B.c3,B.aI)],i),B.a2,B.ai,B.aI),B.z,f,f,new A.ea(a1,f,l,a2,f,f,B.bf),f,f,B.FK,B.FP,f,f,f)}else h=B.ak}else h=B.ak
 a1=g.a
 return A.tT(A.wE(f,B.bE,f,f,A.c4("Sala "+a1.e+": "+a1.c,f,f,f,f,f,f)),B.bw,A.fX(A.hw(A.c([A.jr(r,B.a2,B.c3,B.aI),B.zp,h,A.e1(A.ay9(B.mw,new A.aiS(a,g,s,a0),64,B.Ma),400,400),B.zp,A.jr(q,B.a2,B.c3,B.aI)],t.p),B.a2,B.c3,B.aI),f,f),f)},
 l(){var s=this.d
@@ -86100,7 +86100,7 @@ $0(){return this.a.x=!0},
 $S:0}
 A.aiM.prototype={
 $1(a){var s=null,r=A.c4(this.a.a,s,s,s,B.lt,B.bP,s)
-return A.YZ(A.c([this.c,A.afv(B.We,new A.aiJ(this.b,a),s)],t.p),s,s,r,B.W7)},
+return A.YZ(A.c([this.c,A.afv(B.Wf,new A.aiJ(this.b,a),s)],t.p),s,s,r,B.W7)},
 $S:66}
 A.aiJ.prototype={
 $0(){var s=this.b
@@ -86110,7 +86110,7 @@ this.a.w=!1},
 $S:0}
 A.aiI.prototype={
 $1(a){var s=this,r=null,q=s.a
-return A.YZ(r,r,r,A.hw(A.c([A.z2(A.e1(q.rU(s.b),40,40),new A.aiE(a),r,B.Wr,r),A.z2(A.e1(q.rU(s.c),40,40),new A.aiF(a),r,B.Wm,r),A.z2(A.e1(q.rU(s.d),40,40),new A.aiG(a),r,B.Wt,r),A.z2(A.e1(q.rU(s.e),40,40),new A.aiH(a),r,B.Wk,r)],t.p),B.a2,B.ai,B.c4),B.W8)},
+return A.YZ(r,r,r,A.hw(A.c([A.z2(A.e1(q.rU(s.b),40,40),new A.aiE(a),r,B.Wr,r),A.z2(A.e1(q.rU(s.c),40,40),new A.aiF(a),r,B.Wn,r),A.z2(A.e1(q.rU(s.d),40,40),new A.aiG(a),r,B.Wt,r),A.z2(A.e1(q.rU(s.e),40,40),new A.aiH(a),r,B.Wl,r)],t.p),B.a2,B.ai,B.c4),B.W8)},
 $S:66}
 A.aiE.prototype={
 $0(){A.d9(this.a,!1).il("q")
@@ -86328,11 +86328,11 @@ CB(a,b,c){var s=null,r=this.d===c,q=r?B.j1:B.bE,p=A.hs(4),o=A.at7(r?B.uz:B.G,2)
 return A.on(s,A.j0(s,A.hw(A.c([A.c4(a,s,s,s,B.zS,s,s),B.lk,A.c4(b,s,s,s,B.Uy,s,s)],t.p),B.a2,B.c3,B.aI),B.z,s,s,new A.ea(q,s,o,p,B.kc,s,B.bf),s,110,s,s,s,s,130),B.am,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.amg(this,c),s,s,s,s,s,s)},
 CA(a,b,c){var s=null,r=A.hs(4),q=A.hs(4)
 return A.a51(!1,r,!0,A.j0(s,A.jr(A.c([A.Kf(a,B.cH,s,28),B.Qx,A.c4(b,s,s,s,B.U5,s,s)],t.p),B.a2,B.ai,B.aI),B.z,s,s,new A.ea(B.bE,s,s,q,B.kc,s,B.bf),s,s,B.js,B.FW,s,s,1/0),s,!0,s,s,s,s,s,s,s,s,s,c,s,s,s,s)},
-M(a){var s=this,r=null,q=A.by(a,r,t.w).w,p=t.p,o=A.aAK(B.Ad,A.c([s.CB("1v1","Cl\xe1ssico",B.nZ),s.CB("2v2","Duplas",B.o_),s.CB("3v3","Conselho",B.o0)],p),12,12),n=A.hw(A.c([s.CA(B.Gz,"Criar partida na sala",new A.amp(s)),s.CA(B.GC,"Lista de salas abertas",new A.amq(s)),s.CA(B.GA,"Hist\xf3rico de partidas",new A.amr(s))],p),B.a2,B.ai,B.aI),m=A.wE(A.c([A.fX(new A.bY(B.FL,A.c4(s.a.c,r,r,r,B.zQ,r,r),r),r,r),A.ow(r,r,B.GN,r,r,new A.ams(a),r,r,r)],p),r,r,r,B.Wo)
+M(a){var s=this,r=null,q=A.by(a,r,t.w).w,p=t.p,o=A.aAK(B.Ad,A.c([s.CB("1v1","Cl\xe1ssico",B.nZ),s.CB("2v2","Duplas",B.o_),s.CB("3v3","Conselho",B.o0)],p),12,12),n=A.hw(A.c([s.CA(B.Gz,"Criar partida na sala",new A.amp(s)),s.CA(B.GC,"Lista de salas abertas",new A.amq(s)),s.CA(B.GA,"Hist\xf3rico de partidas",new A.amr(s))],p),B.a2,B.ai,B.aI),m=A.wE(A.c([A.fX(new A.bY(B.FL,A.c4(s.a.c,r,r,r,B.zQ,r,r),r),r,r),A.ow(r,r,B.GN,r,r,new A.ams(a),r,r,r)],p),r,r,r,B.Wc)
 return A.tT(m,B.bw,A.azT(A.fX(A.j0(r,q.a.a>600?A.jr(A.c([A.a2s(o,3),B.Qy,A.a2s(n,2)],p),B.bF,B.ai,B.aI):A.hw(A.c([o,B.zr,n],p),B.a2,B.ai,B.aI),B.z,r,B.Be,r,r,r,r,r,r,r,r),r,r),B.nu),r)}}
 A.amj.prototype={
 $1(a){var s=null
-return A.YZ(A.c([A.lQ(B.zU,new A.amh(a),A.lR(s,s,B.k,s,s,s,s,s,s,B.l,s,s,s,s,s,s,s,s,s,s)),A.lQ(B.zV,new A.ami(a),A.lR(s,s,B.l,s,s,s,s,s,s,B.k,s,s,s,s,s,B.B1,s,s,s,s))],t.p),B.hr,B.bE,B.Wd,B.Wj)},
+return A.YZ(A.c([A.lQ(B.zU,new A.amh(a),A.lR(s,s,B.k,s,s,s,s,s,s,B.l,s,s,s,s,s,s,s,s,s,s)),A.lQ(B.zV,new A.ami(a),A.lR(s,s,B.l,s,s,s,s,s,s,B.k,s,s,s,s,s,B.B1,s,s,s,s))],t.p),B.hr,B.bE,B.We,B.Wk)},
 $S:66}
 A.amh.prototype={
 $0(){A.d9(this.a,!1).il("w")
@@ -86414,7 +86414,7 @@ break
 case 5:return A.K(null,r)
 case 1:return A.J(p.at(-1),r)}})
 return A.L($async$wm,r)},
-M(a){return A.tT(A.wE(null,B.bE,null,B.GL,B.Wi),B.bw,this.a4B(),null)},
+M(a){return A.tT(A.wE(null,B.bE,null,B.GL,B.Wj),B.bw,this.a4B(),null)},
 a4B(){if(this.e)return B.CE
 var s=this.d.length
 if(s===0)return B.CF
@@ -86603,13 +86603,13 @@ a60(){var s,r=A.f8(A.a59(4,new A.alP(B.mz),t.S),0,null),q=this.c
 q.toString
 s=this.a
 this.tp(q,r,s.d,s.c)},
-M(a){var s,r=this,q=null,p=A.wE(A.c([A.ow(q,q,B.GO,q,q,new A.alW(r),q,q,q)],t.p),B.bE,!0,q,B.Wf)
+M(a){var s,r=this,q=null,p=A.wE(A.c([A.ow(q,q,B.GO,q,q,new A.alW(r),q,q,q)],t.p),B.bE,!0,q,B.Wg)
 if(r.e)s=B.mB
 else{s=r.d.length
-s=s===0?B.CD:A.ayJ(new A.alX(r),s,B.nt)}return A.tT(p,B.bw,s,new A.rM(B.GT,B.k,B.eZ,r.ga6_(),B.Wg,q))}}
+s=s===0?B.CD:A.ayJ(new A.alX(r),s,B.nt)}return A.tT(p,B.bw,s,new A.rM(B.GT,B.k,B.eZ,r.ga6_(),B.Wh,q))}}
 A.alS.prototype={
 $1(a){var s=null
-return A.YZ(A.c([A.lQ(B.zU,new A.alQ(a),A.lR(s,s,B.j5,s,s,s,s,s,s,B.l,s,s,s,s,s,s,s,s,s,s)),A.lQ(B.zV,new A.alR(a),A.lR(s,s,B.I,s,s,s,s,s,s,B.k,s,s,s,s,s,s,s,s,s,s))],t.p),B.hr,s,B.Wl,B.Wu)},
+return A.YZ(A.c([A.lQ(B.zU,new A.alQ(a),A.lR(s,s,B.j5,s,s,s,s,s,s,B.l,s,s,s,s,s,s,s,s,s,s)),A.lQ(B.zV,new A.alR(a),A.lR(s,s,B.I,s,s,s,s,s,s,B.k,s,s,s,s,s,s,s,s,s,s))],t.p),B.hr,s,B.Wm,B.Wu)},
 $S:66}
 A.alQ.prototype={
 $0(){A.d9(this.a,!1).il("w")
@@ -91010,8 +91010,8 @@ B.Lt=new A.c3([50,B.n1,100,B.DX,200,B.mV,300,B.j5,350,B.di,400,B.D7,500,B.n9,600
 B.uB=new A.h8(B.Lt,1,0.6196078431372549,0.6196078431372549,0.6196078431372549,B.e)
 B.So=new A.l(!0,B.uB,null,null,null,null,16,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bP=new A.l2(2,"center")
-B.Wn=new A.cg("Nenhuma sala dispon\xedvel no momento.\nCrie a sua!",null,B.So,B.bP,null,null,null,null,null)
-B.CD=new A.i7(B.R,null,null,B.Wn,null)
+B.Wo=new A.cg("Nenhuma sala dispon\xedvel no momento.\nCrie a sua!",null,B.So,B.bP,null,null,null,null,null)
+B.CD=new A.i7(B.R,null,null,B.Wo,null)
 B.ZP=new A.ah3(0,"material")
 B.k=new A.m(1,1,1,1,B.e)
 B.mD=new A.ra(B.k,null)
@@ -93157,8 +93157,8 @@ B.ZM=new A.ju(4,"remove")
 B.QP=new A.ju(5,"timeout")
 B.QQ=new A.u9(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.fj=new A.l(!0,B.k,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Wh=new A.cg("Partida sem lances gravados.",null,B.fj,null,null,null,null,null,null)
-B.QR=new A.mT(B.Wh,null,null,null,null,null,null,null,null,null,null,null,null,B.ez,!1,null,null,null,B.U,null)
+B.Wi=new A.cg("Partida sem lances gravados.",null,B.fj,null,null,null,null,null,null)
+B.QR=new A.mT(B.Wi,null,null,null,null,null,null,null,null,null,null,null,null,B.ez,!1,null,null,null,B.U,null)
 B.Wq=new A.cg("Registrado com sucesso! Fa\xe7a login.",null,null,null,null,null,null,null,null)
 B.QS=new A.mT(B.Wq,null,null,null,null,null,null,null,null,null,null,null,null,B.ez,!1,null,null,null,B.U,null)
 B.zt=new A.Bo(0,"permissive")
@@ -93538,8 +93538,10 @@ B.W8=new A.cg("Promover Pe\xe3o",null,null,null,null,null,null,null,null)
 B.W9=new A.cg("Entrar",null,null,null,null,null,null,null,null)
 B.SF=new A.l(!0,B.uB,null,null,null,null,null,null,B.nW,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Wa=new A.cg("Aguardando votos...",null,B.SF,null,null,null,null,null,null)
-B.Wc=new A.cg("Escolha qual dos lances aliados deve ser jogado:",null,null,null,null,null,null,null,null)
-B.Wd=new A.cg(u.o,null,B.dU,B.bP,null,null,null,null,null)
+B.Tg=new A.l(!0,B.k,null,null,null,null,24,B.bg,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.Wc=new A.cg("Xadrez Multiplayer",null,B.Tg,null,null,null,null,null,null)
+B.Wd=new A.cg("Escolha qual dos lances aliados deve ser jogado:",null,null,null,null,null,null,null,null)
+B.We=new A.cg(u.o,null,B.dU,B.bP,null,null,null,null,null)
 B.DZ=new A.m(1,1,0.9215686274509803,0.9333333333333333,B.e)
 B.Dg=new A.m(1,1,0.803921568627451,0.8235294117647058,B.e)
 B.D4=new A.m(1,0.9372549019607843,0.6039215686274509,0.6039215686274509,B.e)
@@ -93551,17 +93553,15 @@ B.Ec=new A.m(1,0.7176470588235294,0.10980392156862745,0.10980392156862745,B.e)
 B.LH=new A.c3([50,B.DZ,100,B.Dg,200,B.D4,300,B.Ev,400,B.nc,500,B.Er,600,B.DS,700,B.mI,800,B.DY,900,B.Ec],t.pl)
 B.LS=new A.h8(B.LH,1,0.9568627450980393,0.2627450980392157,0.21176470588235294,B.e)
 B.V_=new A.l(!0,B.LS,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.We=new A.cg("Sair da Sala",null,B.V_,null,null,null,null,null,null)
-B.Wf=new A.cg("Lobby de Salas",null,null,null,null,null,null,null,null)
+B.Wf=new A.cg("Sair da Sala",null,B.V_,null,null,null,null,null,null)
+B.Wg=new A.cg("Lobby de Salas",null,null,null,null,null,null,null,null)
 B.zU=new A.cg("Brancas",null,B.d3,null,null,null,null,null,null)
-B.Wg=new A.cg("Criar Sala",null,null,null,null,null,null,null,null)
-B.Wi=new A.cg("Hist\xf3rico de Partidas",null,B.fj,null,null,null,null,null,null)
-B.Wj=new A.cg("Escolha sua Equipe",null,B.fj,B.bP,null,null,null,null,null)
-B.Wk=new A.cg("Cavalo",null,null,null,null,null,null,null,null)
-B.Wl=new A.cg(u.o,null,null,B.bP,null,null,null,null,null)
-B.Wm=new A.cg("Torre",null,null,null,null,null,null,null,null)
-B.Tg=new A.l(!0,B.k,null,null,null,null,24,B.bg,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Wo=new A.cg("xadrez.usp",null,B.Tg,null,null,null,null,null,null)
+B.Wh=new A.cg("Criar Sala",null,null,null,null,null,null,null,null)
+B.Wj=new A.cg("Hist\xf3rico de Partidas",null,B.fj,null,null,null,null,null,null)
+B.Wk=new A.cg("Escolha sua Equipe",null,B.fj,B.bP,null,null,null,null,null)
+B.Wl=new A.cg("Cavalo",null,null,null,null,null,null,null,null)
+B.Wm=new A.cg(u.o,null,null,B.bP,null,null,null,null,null)
+B.Wn=new A.cg("Torre",null,null,null,null,null,null,null,null)
 B.SO=new A.l(!0,B.uA,null,null,null,null,null,B.bg,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Wp=new A.cg("\ud83d\udea8 IMPASSE DETECTADO!",null,B.SO,null,null,null,null,null,null)
 B.Wr=new A.cg("Rainha",null,null,null,null,null,null,null,null)
