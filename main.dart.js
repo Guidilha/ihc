@@ -25846,18 +25846,19 @@ CU:function CU(a,b,c,d,e,f){var _=this
 _.d=$
 _.e=null
 _.f="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
-_.r="*"
-_.w=null
-_.x=a
-_.z=_.y=!1
-_.as=_.Q=0
-_.at=2
-_.ax=b
-_.ay=null
-_.ch=c
-_.CW=d
-_.cx=""
-_.cy=!1
+_.r=null
+_.w="*"
+_.x=null
+_.y=a
+_.Q=_.z=!1
+_.at=_.as=0
+_.ax=2
+_.ay=b
+_.ch=null
+_.CW=c
+_.cx=d
+_.cy=""
+_.db=!1
 _.cZ$=e
 _.aU$=f
 _.c=_.a=null},
@@ -85992,25 +85993,25 @@ s=s.b
 s===$&&A.a()
 new A.dO(s,A.k(s).i("dO<1>")).kz(new A.aj6(r))},
 PL(a){var s,r,q=this,p=null,o={}
-if(q.y)return
-q.y=!0
+if(q.z)return
+q.z=!0
 o.a="O jogo terminou em empate!"
 if(a==="1-0")o.a="Fim de Jogo!\nAs Brancas Venceram!"
 else if(a==="0-1")o.a="Fim de Jogo!\nAs Pretas Venceram!"
-if(q.z)s=B.Ww
+if(q.Q)s=B.Ww
 else{r=A.h1(p,p,B.f0,p,p,p,p,p,p,B.k,p,p,p,p,p,p,p,p,p,p)
-s=A.kf(A.c6("Pedir Revanche ("+q.Q+"/"+q.as+")",p,p,p,p,p,p),new A.aiX(q),r)}r=q.c
+s=A.kf(A.c6("Pedir Revanche ("+q.as+"/"+q.at+")",p,p,p,p,p,p),new A.aiX(q),r)}r=q.c
 r.toString
 A.Yl(!1,new A.aiY(o,q,s),r,t.z)},
 a5K(){var s=this.c
 s.toString
 A.Yl(!0,new A.aiP(this),s,t.z)},
-ds(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=i.ax.h(0,a)
+ds(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=i.ay.h(0,a)
 if(g==null)g="Aguardando..."
-s=i.ay
+s=i.ch
 r=B.c.b8(a,"w")
-q=B.b.t(i.ch,a)
-p=i.CW.h(0,a)!=null&&!J.d(i.CW.h(0,a),"")
+q=B.b.t(i.CW,a)
+p=i.cx.h(0,a)!=null&&!J.d(i.cx.h(0,a),"")
 o=q?1:0.35
 n=r?B.n_:B.iZ
 m=A.es(8)
@@ -86058,7 +86059,7 @@ break
 default:s=""}return new A.bT(B.jx,A.ayr(s,B.Bu),null)},
 ED(){var s=0,r=A.M(t.ob),q,p=this,o,n,m,l,k,j
 var $async$ED=A.N(function(a,b){if(a===1)return A.J(b,r)
-for(;;)switch(s){case 0:o=p.ay
+for(;;)switch(s){case 0:o=p.ch
 n=o!=null&&B.c.b8(o,"w")
 m=n?"Q":"q"
 l=n?"R":"r"
@@ -86074,24 +86075,24 @@ return A.L($async$ED,r)},
 Cx(a){return this.a4l(a)},
 a4l(a){var s=0,r=A.M(t.H),q,p=this
 var $async$Cx=A.N(function(b,c){if(b===1)return A.J(c,r)
-for(;;)switch(s){case 0:if(!B.b.t(p.ch,p.ay)){s=1
+for(;;)switch(s){case 0:if(!B.b.t(p.CW,p.ch)){s=1
 break}p.ae(new A.aiI(p,a))
 case 1:return A.K(q,r)}})
 return A.L($async$Cx,r)},
 a4B(){var s,r,q,p,o,n=this,m=null
-if(n.r!=="*")return B.ad
-s=n.ay
+if(n.w!=="*")return B.ad
+s=n.ch
 if(s==null)return B.ad
-r=n.cx
+r=n.cy
 q=r.length!==0
-p=q&&r===s[0]||n.cy
+p=q&&r===s[0]||n.db
 if(q&&r!==s[0]){s=n.e
 s.toString
-o=A.iY(s,new A.aiL(n),m)}else o=p?A.a23(B.QX,B.WV,m,A.h1(m,m,B.b3,m,m,m,m,m,m,B.mM,m,m,B.h0,m,new A.ch(A.es(4),B.q),B.Bi,m,m,m,m)):A.a23(B.of,B.WU,new A.aiM(n),A.h1(m,m,B.fI,m,m,m,m,m,m,B.k,m,m,B.h0,m,new A.ch(A.es(4),B.q),m,m,m,m,m))
+o=A.iY(s,new A.aiL(n),m)}else o=p?A.a23(B.QX,B.WX,m,A.h1(m,m,B.b3,m,m,m,m,m,m,B.mM,m,m,B.h0,m,new A.ch(A.es(4),B.q),B.Bi,m,m,m,m)):A.a23(B.of,B.WU,new A.aiM(n),A.h1(m,m,B.fI,m,m,m,m,m,m,B.k,m,m,B.h0,m,new A.ch(A.es(4),B.q),m,m,m,m,m))
 return new A.bT(B.G4,A.hO(A.c([A.a23(B.H6,B.WT,n.ga5J(),A.h1(m,m,B.ja,m,m,m,m,m,m,B.k,m,m,B.h0,m,new A.ch(A.es(4),B.q),m,m,m,m,m)),B.zx,o],t.p),B.X,B.bN,B.aA,0),m)},
-M(a3){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e="w1",d="w2",c="b1",b="b2",a={},a0=g.K9(),a1=g.as,a2=g.at
+M(a3){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e="w1",d="w2",c="b1",b="b2",a={},a0=g.K9(),a1=g.at,a2=g.ax
 if(a1<a2)return A.tU(A.wF(f,B.b3,f,f,A.c6("Lobby "+g.a.e+" - Aguardando ("+a1+"/"+a2+")",f,f,f,B.bi,f,f)),B.bz,B.mE,f)
-a1=g.ay
+a1=g.ch
 s=a1!=null&&B.c.b8(a1,"b")
 a1=g.a.e
 if(a1==="3v3"){a1=t.p
@@ -86101,13 +86102,13 @@ r=s?A.c([g.ds(e),g.ds(d)],a1):A.c([g.ds(c),g.ds(b)],a1)
 q=s?A.c([g.ds(c),g.ds(b)],a1):A.c([g.ds(e),g.ds(d)],a1)}else{a1=t.p
 r=s?A.c([g.ds(e)],a1):A.c([g.ds(c)],a1)
 q=s?A.c([g.ds(c)],a1):A.c([g.ds(e)],a1)}a.a=a.b=""
-if(g.a.e==="3v3"){a1=g.ay
-a1=a1!=null&&B.b.t(g.ch,a1)}else a1=!1
-if(a1){a1=g.CW.ghC()
+if(g.a.e==="3v3"){a1=g.ch
+a1=a1!=null&&B.b.t(g.CW,a1)}else a1=!1
+if(a1){a1=g.cx.ghC()
 p=a1.jR(a1,new A.aj0(g)).f1(0)
-if(p.length===2&&!J.d(p[0].b,p[1].b)){o=g.ax.h(0,p[0].a)
+if(p.length===2&&!J.d(p[0].b,p[1].b)){o=g.ay.h(0,p[0].a)
 if(o==null)o="Jogador 1"
-n=g.ax.h(0,p[1].a)
+n=g.ay.h(0,p[1].a)
 if(n==null)n="Jogador 2"
 m=p[0].b
 a.b=m
@@ -86137,52 +86138,54 @@ A.cR(r,!1).he(q)
 s.c.ah(t.Pu).f.oW(A.aeQ(q,q,q,q,q,B.S,q,A.c6(o.h(p,"error"),q,q,q,q,q,q),q,B.dr,q,q,q,q,q,q,q,q,q,q))
 return}o=this.a
 o.ae(new A.aj5(o,p))
-s=o.r
-if(s!=="*")if(!o.y)o.PL(s)
+s=o.w
+if(s!=="*")if(!o.z)o.PL(s)
 else{s=o.c
 s.toString
 A.cR(s,!1).eu()
-o.y=!1
-o.PL(o.r)}else{if(o.y){s=o.c
+o.z=!1
+o.PL(o.w)}else{if(o.z){s=o.c
 s.toString
 A.cR(s,!1).he(q)
-o.y=!1}o.z=!1}},
+o.z=!1}o.Q=!1}},
 $S:42}
 A.aj5.prototype={
-$0(){var s,r,q,p=this.a,o=this.b,n=J.bg(o)
-p.f=n.h(o,"fen")
-s=n.h(o,"status")
-p.r=s==null?"*":s
-p.as=n.h(o,"player_count")
-s=n.h(o,"max_players")
-p.at=s==null?2:s
-s=n.h(o,"valid_moves")
+$0(){var s,r,q,p,o=this.a,n=this.b,m=J.bg(n)
+o.f=m.h(n,"fen")
+s=m.h(n,"status")
+o.w=s==null?"*":s
+o.at=m.h(n,"player_count")
+s=m.h(n,"max_players")
+o.ax=s==null?2:s
+s=m.h(n,"valid_moves")
 if(s==null)s=[]
 r=t.N
-p.x=A.fB(s,!0,r)
-s=n.h(o,"rematch_votes")
-p.Q=s==null?0:s
-s=n.h(o,"players")
-p.ax=s==null?A.t(r,t.z):s
-s=n.h(o,"active_roles")
-p.ch=A.fB(s==null?["w1"]:s,!0,r)
-s=n.h(o,"proposed_moves")
-p.CW=s==null?A.t(r,t.z):s
-q=n.h(o,"draw_offer")
+o.y=A.fB(s,!0,r)
+s=m.h(n,"rematch_votes")
+o.as=s==null?0:s
+s=m.h(n,"players")
+o.ay=s==null?A.t(r,t.z):s
+s=m.h(n,"active_roles")
+o.CW=A.fB(s==null?["w1"]:s,!0,r)
+s=m.h(n,"proposed_moves")
+o.cx=s==null?A.t(r,t.z):s
+q=m.h(n,"draw_offer")
 if(q==null)q=""
-o=p.ay
-if(o!=null&&q.length!==0&&q!==p.cx&&q!==o[0])p.c.ah(t.Pu).f.oW(B.Rc)
-p.cx=q
-if(q.length!==0){o=p.ay
-o=o!=null&&q!==o[0]}else o=!0
-if(o)p.cy=!1
-else{o=p.ay
-if(o!=null&&q===o[0])p.cy=!0}p.w=null
-if(p.ay==null&&p.ax.h4(p.a.d))p.ax.ao(0,new A.aj4(p))},
+n=o.r
+p=n!=null&&n!==o.f
+o.r=o.f
+if(p)o.db=!1
+n=o.ch
+m=n!=null
+if(m&&q===n[0])o.db=!0
+if(m&&q.length!==0&&q!==n[0]){o.db=!1
+if(q!==o.cy)o.c.ah(t.Pu).f.oW(B.Rc)}o.cy=q
+o.x=null
+if(o.ch==null&&o.ay.h4(o.a.d))o.ay.ao(0,new A.aj4(o))},
 $S:0}
 A.aj4.prototype={
 $2(a,b){var s=this.a
-if(J.d(b,s.a.d))s.ay=a},
+if(J.d(b,s.a.d))s.ch=a},
 $S:88}
 A.aiX.prototype={
 $0(){var s,r=this.a,q=r.d
@@ -86192,7 +86195,7 @@ q.gkX().a.C(0,B.ar.km(A.a3(["move","rematch"],s,s),null))
 r.ae(new A.aiW(r))},
 $S:0}
 A.aiW.prototype={
-$0(){return this.a.z=!0},
+$0(){return this.a.Q=!0},
 $S:0}
 A.aiY.prototype={
 $1(a){var s=null,r=A.c6(this.a.a,s,s,s,B.Uo,B.bS,s)
@@ -86202,11 +86205,11 @@ A.aiV.prototype={
 $0(){var s=this.b
 A.cR(s,!1).he(null)
 A.cR(s,!1).he(null)
-this.a.y=!1},
+this.a.z=!1},
 $S:0}
 A.aiP.prototype={
 $1(a){var s=null
-return A.Hn(A.c([A.Oi(B.Wu,new A.aiN(a),s),A.kf(B.WO,new A.aiO(this.a,a),A.h1(s,s,B.ja,s,s,s,s,s,s,B.k,s,s,s,s,s,s,s,s,s,s))],t.p),s,B.b3,B.WW,B.WA)},
+return A.Hn(A.c([A.Oi(B.Wu,new A.aiN(a),s),A.kf(B.WO,new A.aiO(this.a,a),A.h1(s,s,B.ja,s,s,s,s,s,s,B.k,s,s,s,s,s,s,s,s,s,s))],t.p),s,B.b3,B.WV,B.WA)},
 $S:61}
 A.aiN.prototype={
 $0(){A.cR(this.a,!1).he(null)
@@ -86240,9 +86243,9 @@ $0(){A.cR(this.a,!1).he("n")
 return null},
 $S:0}
 A.aiI.prototype={
-$0(){var s,r,q=this.a,p=q.w,o=this.b,n=q.x
-if(p==null){if(B.b.fA(n,new A.aiF(o)))q.w=o}else{s=p+o
-if(B.b.fA(n,new A.aiG(s))){p=q.w
+$0(){var s,r,q=this.a,p=q.x,o=this.b,n=q.y
+if(p==null){if(B.b.fA(n,new A.aiF(o)))q.x=o}else{s=p+o
+if(B.b.fA(n,new A.aiG(s))){p=q.x
 n=p.charCodeAt(0)
 p=A.eY(p[1],null)
 r=q.K9()[(8-p)*8+(n-97)]
@@ -86252,7 +86255,7 @@ if(p){q.ED().bP(new A.aiH(q,s),t.P)
 return}else{p=q.d
 p===$&&A.a()
 o=t.N
-p.gkX().a.C(0,B.ar.km(A.a3(["move",s],o,o),null))}}q.w=null}},
+p.gkX().a.C(0,B.ar.km(A.a3(["move",s],o,o),null))}}q.x=null}},
 $S:0}
 A.aiF.prototype={
 $1(a){return B.c.b8(a,this.a)},
@@ -86269,7 +86272,7 @@ s.gkX().a.C(0,B.ar.km(A.a3(["move",this.b+a],r,r),null))}s=this.a
 s.ae(new A.aiE(s))},
 $S:532}
 A.aiE.prototype={
-$0(){return this.a.w=null},
+$0(){return this.a.x=null},
 $S:0}
 A.aiL.prototype={
 $2(a,b){var s,r=null,q=A.es(4),p=this.a,o=p.e.x
@@ -86298,11 +86301,11 @@ s=t.N
 r.gkX().a.C(0,B.ar.km(A.a3(["move","offer_draw"],s,s),null))},
 $S:0}
 A.aiJ.prototype={
-$0(){this.a.cy=!0},
+$0(){this.a.db=!0},
 $S:0}
 A.aj0.prototype={
 $1(a){var s,r
-if(B.c.b8(a.a,this.a.ay[0])){s=a.b
+if(B.c.b8(a.a,this.a.ch[0])){s=a.b
 r=J.lz(s)
 s=r.k(s).length>=4&&!r.j(s,"voted")}else s=!1
 return s},
@@ -86322,7 +86325,7 @@ r.gkX().a.C(0,B.ar.km(A.a3(["move",this.a.a],s,s),null))
 return null},
 $S:0}
 A.aj3.prototype={
-$2(a,b){var s,r,q,p=this,o=null,n=p.c?63-b:b,m=B.i.e4(n,8),l=B.i.bl(n,8),k=p.d[n],j=A.dv(97+l)+(8-m),i=p.b,h=i.w,g=h!=null&&B.b.fA(i.x,new A.aiZ(i,j)),f=p.a,e=f.b
+$2(a,b){var s,r,q,p=this,o=null,n=p.c?63-b:b,m=B.i.e4(n,8),l=B.i.bl(n,8),k=p.d[n],j=A.dv(97+l)+(8-m),i=p.b,h=i.x,g=h!=null&&B.b.fA(i.y,new A.aiZ(i,j)),f=p.a,e=f.b
 if(e.length!==0)s=B.c.b8(e,j)||B.c.R(e,2,4)===j
 else s=!1
 f=f.a
@@ -86336,7 +86339,7 @@ else q=B.i.bl(m+l,2)===0?B.n4:B.n1
 return A.op(o,A.ia(o,A.fZ(i.rU(k),o,o),B.x,q,o,o,o,o,o,o,o,o,o),B.am,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.aj_(i,j),o,o,o,o,o,o)},
 $S:208}
 A.aiZ.prototype={
-$1(a){var s=this.a.w
+$1(a){var s=this.a.x
 s.toString
 return B.c.b8(a,s)&&B.c.R(a,2,4)===this.b},
 $S:14}
@@ -93334,8 +93337,8 @@ B.Ra=new A.l3(B.WI,null,null,null,null,null,null,null,null,null,null,null,null,B
 B.WS=new A.bG("Registrado com sucesso! Fa\xe7a login.",null,null,null,null,null,null,null,null)
 B.Rb=new A.l3(B.WS,null,null,null,null,null,null,null,null,null,null,null,null,B.dr,!1,null,null,null,B.S,null)
 B.A5=new A.l(!0,null,null,null,null,null,16,B.bf,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.WX=new A.bG("\ud83e\udd1d A equipe advers\xe1ria ofereceu um empate!",null,B.A5,null,null,null,null,null,null)
-B.Rc=new A.l3(B.WX,B.cY,null,null,null,null,null,null,null,null,null,null,null,B.dr,!1,null,null,null,B.S,null)
+B.WW=new A.bG("\ud83e\udd1d A equipe advers\xe1ria ofereceu um empate!",null,B.A5,null,null,null,null,null,null)
+B.Rc=new A.l3(B.WW,B.cY,null,null,null,null,null,null,null,null,null,null,null,B.dr,!1,null,null,null,B.S,null)
 B.zD=new A.Bp(0,"permissive")
 B.Rd=new A.Bp(1,"normal")
 B.Re=new A.Bp(2,"forced")
@@ -93748,9 +93751,9 @@ B.T8=new A.l(!0,B.uK,null,null,null,null,null,B.bf,null,null,null,null,null,null
 B.WR=new A.bG("\ud83d\udea8 IMPASSE DETECTADO!",null,B.T8,null,null,null,null,null,null)
 B.WT=new A.bG("Render-se",null,B.bU,null,null,null,null,null,null)
 B.WU=new A.bG("Pedir Empate",null,B.bU,null,null,null,null,null,null)
-B.WV=new A.bG("Proposta Enviada (1/2) \u23f3",null,B.bU,null,null,null,null,null,null)
-B.WW=new A.bG("Tem a certeza que deseja desistir da partida?",null,B.d7,null,null,null,null,null,null)
+B.WV=new A.bG("Tem a certeza que deseja desistir da partida?",null,B.d7,null,null,null,null,null,null)
 B.A7=new A.bG("Pretas",null,B.bU,null,null,null,null,null,null)
+B.WX=new A.bG("Pedido Enviado (1/2) \u23f3",null,B.bU,null,null,null,null,null,null)
 B.WY=new A.bG("Replay da Partida",null,null,null,null,null,null,null,null)
 B.WZ=new A.bG("Escolha sua Equipe",null,null,B.bS,null,null,null,null,null)
 B.a_i=new A.agh(0,"system")
