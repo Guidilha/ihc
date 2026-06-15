@@ -85987,8 +85987,8 @@ acw(){var s,r={}
 r.a=""
 s=this.a.e
 if(s==="1v1")r.a="Xadrez cl\xe1ssico. Jogue normalmente seguindo as regras da FIDE."
-else if(s==="2v2")r.a="Modo Duplas:\nAmbos os jogadores da equipa podem mover as pe\xe7as.\nComunique-se com o seu aliado para combinar estrat\xe9gias!"
-else if(s==="3v3")r.a="Modo Conselho (3v3):\n- Os jogadores 1 e 2 prop\xf5em um lance cada.\n- Se ambos fizerem o mesmo lance, a pe\xe7a move-se.\n- Se discordarem, o painel de Impasse aparece e o Jogador 3 decide qual dos lances deve ser jogado."
+else if(s==="2v2")r.a="Modo Duplas:\nOs jogadores v\xe3o alternar entre si para mover as pe\xe7as.\nConfie na sua dupla!"
+else if(s==="3v3")r.a="Modo Conselho (3v3):\n- Um jogador \xe9 escolhido como juiz os outros dois realizam jogadas\n- Se ambos fizerem o mesmo lance, a pe\xe7a se move\n- Se discordarem, o painel de Impasse aparece e o Juiz decide qual dos lances deve ser jogado."
 s=this.c
 s.toString
 A.GW(!0,new A.aiZ(r,this),s,t.z)},
@@ -86472,7 +86472,7 @@ CC(a,b,c,d){var s=null,r=this.d===c,q=r?B.dm:B.aU,p=A.eM(4),o=A.ZA(r?B.kB:B.G,2)
 return A.auS(A.op(s,A.hA(s,A.hz(A.c([A.bW(a,s,s,s,B.A_,s,s),B.lq,A.bW(b,s,s,s,B.UZ,s,s)],t.p),B.X,B.bN,B.av),B.w,s,s,new A.dG(q,s,o,p,B.kf,s,B.bi),s,110,s,s,s,s,130),B.am,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.amu(this,c),s,s,s,s,s,s),d,B.ds)},
 CB(a,b,c){var s=null,r=A.eM(4),q=A.eM(4)
 return A.a57(!1,r,!0,A.hA(s,A.hi(A.c([A.Ki(a,B.c1,s,28),B.QV,A.bW(b,s,s,s,B.Uw,s,s)],t.p),B.X,B.aa,B.av,0),B.w,s,s,new A.dG(B.aU,s,s,q,B.kf,s,B.bi),s,s,B.ju,B.Gc,s,s,1/0),s,!0,s,s,s,s,s,s,s,s,s,c,s,s,s,s)},
-M(a){var s=this,r=null,q=A.by(a,r,t.w).w,p=t.p,o=A.aAY(B.An,A.c([s.CC("1v1","Cl\xe1ssico",B.o6,"Xadrez tradicional. Um jogador contra o outro."),s.CC("2v2","Duplas",B.o7,"Modo cooperativo onde as equipes votam no melhor lance."),s.CC("3v3","Conselho",B.o8,"Dois jogadores prop\xf5em lances, o terceiro decide em caso de impasse.")],p),12,12),n=A.hz(A.c([s.CB(B.GQ,"Criar partida na sala",new A.amD(s)),s.CB(B.GU,"Lista de salas abertas",new A.amE(s)),s.CB(B.GS,"Hist\xf3rico de partidas",new A.amF(s))],p),B.X,B.aa,B.av),m=A.wH(A.c([A.h_(new A.bT(B.G0,A.bW(s.a.c,r,r,r,B.zY,r,r),r),r,r),A.m0(r,r,B.H4,r,r,new A.amG(a),r,r,r)],p),r,r,r,B.WE)
+M(a){var s=this,r=null,q=A.by(a,r,t.w).w,p=t.p,o=A.aAY(B.An,A.c([s.CC("1v1","Cl\xe1ssico",B.o6,"Xadrez tradicional. Um jogador contra o outro."),s.CC("2v2","Duplas",B.o7,"Modo em que os jogadores ficam alternando o controle das pe\xe7as"),s.CC("3v3","Conselho",B.o8,"Dois jogadores prop\xf5em lances, o terceiro decide em caso de impasse.")],p),12,12),n=A.hz(A.c([s.CB(B.GQ,"Criar partida na sala",new A.amD(s)),s.CB(B.GU,"Lista de salas abertas",new A.amE(s)),s.CB(B.GS,"Hist\xf3rico de partidas",new A.amF(s))],p),B.X,B.aa,B.av),m=A.wH(A.c([A.h_(new A.bT(B.G0,A.bW(s.a.c,r,r,r,B.zY,r,r),r),r,r),A.m0(r,r,B.H4,r,r,new A.amG(a),r,r,r)],p),r,r,r,B.WE)
 return A.tV(m,B.bz,A.aA6(A.h_(A.hA(r,q.a.a>600?A.hi(A.c([A.a2y(o,3),B.QW,A.a2y(n,2)],p),B.bH,B.aa,B.av,0):A.hz(A.c([o,B.zz,n],p),B.X,B.aa,B.av),B.w,r,B.Bq,r,r,r,r,r,r,r,r),r,r),B.nB),r)}}
 A.amx.prototype={
 $1(a){var s=null
